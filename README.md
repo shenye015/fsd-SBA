@@ -1,27 +1,41 @@
-# FsdSBA
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
+第七课
 
-## Development server
+如果你完成了第六课的练习，请继续下面的内容。 本篇内容包括：
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+课前预习：
 
-## Code scaffolding
+    预习本课件第18、22章节
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+课堂讲解：
 
-## Build
+    对上期作业进行解惑
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+    对课件第18、22两个章节的示例进行串讲
 
-## Running unit tests
+    讲解SBA（Skill based assessment）大练习及关键点
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+        1、实战基于Angular Material实现表格组件，表格要求：
 
-## Running end-to-end tests
+            用表格展示数据，要求对数据具有排序、分页、过滤的功能；
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+            可以自定义显示、隐藏数据列；
 
-## Further help
+            可以对表格的数据列进行拖拽排序；
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+            格式化显示表格中的数据，汇总统计表格列数据的总和；
+
+            数据加载时，表格数据处于加载状态时，显示加载效果;
+
+            可以对数据进行编辑。
+
+        2、为项目添加PWA功能
+
+课后练习：
+
+    实战SBA大练习
+
+    部署自己的练习作品到Github上；
+
+    更新学员练习进度表：https://pages.github.ibm.com/lanzejun/angular-course/index.html
+
