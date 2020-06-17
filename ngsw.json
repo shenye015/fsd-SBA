@@ -1,0 +1,95 @@
+{
+  "configVersion": 1,
+  "timestamp": 1592366432661,
+  "index": "/fsd-SBA/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/fsd-SBA/5-es2015.6c1ca0b4809498551d0a.js",
+        "/fsd-SBA/5-es5.6c1ca0b4809498551d0a.js",
+        "/fsd-SBA/favicon.ico",
+        "/fsd-SBA/index.html",
+        "/fsd-SBA/main-es2015.8c4ac2fe9ea5e1c1d3da.js",
+        "/fsd-SBA/main-es5.8c4ac2fe9ea5e1c1d3da.js",
+        "/fsd-SBA/manifest.webmanifest",
+        "/fsd-SBA/polyfills-es2015.690002c25ea8557bb4b0.js",
+        "/fsd-SBA/polyfills-es5.9e286f6d9247438cbb02.js",
+        "/fsd-SBA/runtime-es2015.bff1775784334b94ec96.js",
+        "/fsd-SBA/runtime-es5.bff1775784334b94ec96.js",
+        "/fsd-SBA/styles.ec20522c9756efcb6fd3.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/fsd-SBA/assets/icons/icon-128x128.png",
+        "/fsd-SBA/assets/icons/icon-144x144.png",
+        "/fsd-SBA/assets/icons/icon-152x152.png",
+        "/fsd-SBA/assets/icons/icon-192x192.png",
+        "/fsd-SBA/assets/icons/icon-384x384.png",
+        "/fsd-SBA/assets/icons/icon-512x512.png",
+        "/fsd-SBA/assets/icons/icon-72x72.png",
+        "/fsd-SBA/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "github-issues",
+      "patterns": [
+        "https:\\/\\/api\\.github\\.com\\/search\\/issues\\?q=angular&sort=created&order=desc"
+      ],
+      "strategy": "performance",
+      "maxSize": 100,
+      "maxAge": 432000000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/fsd-SBA/5-es2015.6c1ca0b4809498551d0a.js": "540b9dc19cb397cc305a8015496594e2b849d69c",
+    "/fsd-SBA/5-es5.6c1ca0b4809498551d0a.js": "6fe9a454b5966b0c6f595fd3de4064cb804d1035",
+    "/fsd-SBA/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/fsd-SBA/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/fsd-SBA/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/fsd-SBA/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/fsd-SBA/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/fsd-SBA/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/fsd-SBA/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/fsd-SBA/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/fsd-SBA/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/fsd-SBA/index.html": "3ac3c000099c721e36201d23ae0929ee5049e2b5",
+    "/fsd-SBA/main-es2015.8c4ac2fe9ea5e1c1d3da.js": "6ed79355d09e1c6e1c918c564fedd45fd1bc3e1a",
+    "/fsd-SBA/main-es5.8c4ac2fe9ea5e1c1d3da.js": "f47dfe5a4de90ba91b774c4e3475de9900758f91",
+    "/fsd-SBA/manifest.webmanifest": "00327326f834557b088d37aefaa64aa54613a074",
+    "/fsd-SBA/polyfills-es2015.690002c25ea8557bb4b0.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "/fsd-SBA/polyfills-es5.9e286f6d9247438cbb02.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
+    "/fsd-SBA/runtime-es2015.bff1775784334b94ec96.js": "f81ef9c66e73a934d126c8e00b93780300ca969f",
+    "/fsd-SBA/runtime-es5.bff1775784334b94ec96.js": "84df4f84c0445fb0d5e645edd946af884a5ef088",
+    "/fsd-SBA/styles.ec20522c9756efcb6fd3.css": "24da2e967c281fce85a79adb0908d3c735f790b9"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
