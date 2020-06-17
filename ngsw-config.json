@@ -29,7 +29,7 @@
   "dataGroups": [
     {
       "name": "github-issues",
-      "urls": ["/ngsw.json", "https://api.github.com/search/issues?q=angular&sort=created&order=desc"
+      "urls": ["https://api.github.com/search/issues?q=angular&sort=created&order=desc"
       ],
       "cacheConfig" : {
         "maxSize": 100,
